@@ -34,7 +34,7 @@
 
 /* Begin PBXFileReference section */
 		187A07EBAE4E2A7DD4B4EC0B /* Pods_ZWXAllen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZWXAllen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2A2FBCBF1F1DB30E005F0CC7 /* ZWXAllen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZWXAllen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A2FBCBF1F1DB30E005F0CC7 /* ZWXProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZWXProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A2FBCC31F1DB30E005F0CC7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2A2FBCC51F1DB30E005F0CC7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2A2FBCC61F1DB30E005F0CC7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -96,7 +96,7 @@
 		2A2FBCB61F1DB30E005F0CC7 = {
 			isa = PBXGroup;
 			children = (
-				2A2FBCC11F1DB30E005F0CC7 /* ZWXAllen */,
+				2A2FBCC11F1DB30E005F0CC7 /* ZWXProject */,
 				2A2FBCC01F1DB30E005F0CC7 /* Products */,
 				55E4780E04548E983124AD6D /* Pods */,
 				3E83D780EFF37D9F781EF2C1 /* Frameworks */,
@@ -106,12 +106,12 @@
 		2A2FBCC01F1DB30E005F0CC7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2A2FBCBF1F1DB30E005F0CC7 /* ZWXAllen.app */,
+				2A2FBCBF1F1DB30E005F0CC7 /* ZWXProject.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2A2FBCC11F1DB30E005F0CC7 /* ZWXAllen */ = {
+		2A2FBCC11F1DB30E005F0CC7 /* ZWXProject */ = {
 			isa = PBXGroup;
 			children = (
 				2A2FBD081F1DB658005F0CC7 /* Vender */,
@@ -126,6 +126,7 @@
 				2A2FBCD31F1DB30E005F0CC7 /* Info.plist */,
 				2A2FBCC21F1DB30E005F0CC7 /* Supporting Files */,
 			);
+			name = ZWXProject;
 			path = ZWXAllen;
 			sourceTree = "<group>";
 		};
@@ -236,9 +237,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2A2FBCBE1F1DB30E005F0CC7 /* ZWXAllen */ = {
+		2A2FBCBE1F1DB30E005F0CC7 /* ZWXProject */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2A2FBCD61F1DB30E005F0CC7 /* Build configuration list for PBXNativeTarget "ZWXAllen" */;
+			buildConfigurationList = 2A2FBCD61F1DB30E005F0CC7 /* Build configuration list for PBXNativeTarget "ZWXProject" */;
 			buildPhases = (
 				E864BB1DAFAB220BB3A6EEC7 /* [CP] Check Pods Manifest.lock */,
 				2A2FBCBB1F1DB30E005F0CC7 /* Sources */,
@@ -251,9 +252,9 @@
 			);
 			dependencies = (
 			);
-			name = ZWXAllen;
+			name = ZWXProject;
 			productName = ZWXAllen;
-			productReference = 2A2FBCBF1F1DB30E005F0CC7 /* ZWXAllen.app */;
+			productReference = 2A2FBCBF1F1DB30E005F0CC7 /* ZWXProject.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -271,7 +272,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2A2FBCBA1F1DB30E005F0CC7 /* Build configuration list for PBXProject "ZWXAllen" */;
+			buildConfigurationList = 2A2FBCBA1F1DB30E005F0CC7 /* Build configuration list for PBXProject "ZWXProject" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -284,7 +285,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2A2FBCBE1F1DB30E005F0CC7 /* ZWXAllen */,
+				2A2FBCBE1F1DB30E005F0CC7 /* ZWXProject */,
 			);
 		};
 /* End PBXProject section */
@@ -534,7 +535,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2A2FBCBA1F1DB30E005F0CC7 /* Build configuration list for PBXProject "ZWXAllen" */ = {
+		2A2FBCBA1F1DB30E005F0CC7 /* Build configuration list for PBXProject "ZWXProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2A2FBCD41F1DB30E005F0CC7 /* Debug */,
@@ -543,7 +544,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2A2FBCD61F1DB30E005F0CC7 /* Build configuration list for PBXNativeTarget "ZWXAllen" */ = {
+		2A2FBCD61F1DB30E005F0CC7 /* Build configuration list for PBXNativeTarget "ZWXProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2A2FBCD71F1DB30E005F0CC7 /* Debug */,

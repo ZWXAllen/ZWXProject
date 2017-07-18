@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2A2FBCBE1F1DB30E005F0CC7"
-               BuildableName = "ZWXAllen.app"
-               BlueprintName = "ZWXAllen"
-               ReferencedContainer = "container:ZWXAllen.xcodeproj">
+               BuildableName = "ZWXProject.app"
+               BlueprintName = "ZWXProject"
+               ReferencedContainer = "container:ZWXProject.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2A2FBCBE1F1DB30E005F0CC7"
-            BuildableName = "ZWXAllen.app"
-            BlueprintName = "ZWXAllen"
-            ReferencedContainer = "container:ZWXAllen.xcodeproj">
+            BuildableName = "ZWXProject.app"
+            BlueprintName = "ZWXProject"
+            ReferencedContainer = "container:ZWXProject.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2A2FBCBE1F1DB30E005F0CC7"
-            BuildableName = "ZWXAllen.app"
-            BlueprintName = "ZWXAllen"
-            ReferencedContainer = "container:ZWXAllen.xcodeproj">
+            BuildableName = "ZWXProject.app"
+            BlueprintName = "ZWXProject"
+            ReferencedContainer = "container:ZWXProject.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2A2FBCBE1F1DB30E005F0CC7"
-            BuildableName = "ZWXAllen.app"
-            BlueprintName = "ZWXAllen"
-            ReferencedContainer = "container:ZWXAllen.xcodeproj">
+            BuildableName = "ZWXProject.app"
+            BlueprintName = "ZWXProject"
+            ReferencedContainer = "container:ZWXProject.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
