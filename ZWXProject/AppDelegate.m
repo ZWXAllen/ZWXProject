@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 #import "SYSafeCategory.h"
-#import "AppDelegate+Tabbar.h"
+#import "CYLTabBarControllerConfig.h"
 @interface AppDelegate ()
 
 @end
@@ -19,9 +19,10 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     [SYSafeCategory callSafeCategory];
-    
-    [self setupViewControllers];
-    [self.window setRootViewController:self.tabBarController];
+    CYLTabBarControllerConfig *tabBarControllerConfig = [[CYLTabBarControllerConfig alloc] init];
+    CYLTabBarController *tabBarController = tabBarControllerConfig.tabBarController;
+
+    [self.window setRootViewController:tabBarController];
     [self.window makeKeyAndVisible];
     return YES;
 }
