@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A2FBCC41F1DB30E005F0CC7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2FBCC31F1DB30E005F0CC7 /* main.m */; };
+		2A2FBCC71F1DB30E005F0CC7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2FBCC61F1DB30E005F0CC7 /* AppDelegate.m */; };
+		2A2FBCCA1F1DB30E005F0CC7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2FBCC91F1DB30E005F0CC7 /* ViewController.m */; };
+		2A2FBCCD1F1DB30E005F0CC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A2FBCCB1F1DB30E005F0CC7 /* Main.storyboard */; };
+		2A2FBCCF1F1DB30E005F0CC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A2FBCCE1F1DB30E005F0CC7 /* Assets.xcassets */; };
+		2A2FBCD21F1DB30E005F0CC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A2FBCD01F1DB30E005F0CC7 /* LaunchScreen.storyboard */; };
+		2A2FBCDC1F1DB371005F0CC7 /* SYSafeCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2FBCDB1F1DB371005F0CC7 /* SYSafeCategory.m */; };
+		2A2FBD251F1DB658005F0CC7 /* iToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2FBD0B1F1DB658005F0CC7 /* iToast.m */; };
+		2A2FBD261F1DB658005F0CC7 /* NJKWebViewProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2FBD0F1F1DB658005F0CC7 /* NJKWebViewProgress.m */; };
+		2A2FBD271F1DB658005F0CC7 /* NJKWebViewProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2FBD111F1DB658005F0CC7 /* NJKWebViewProgressView.m */; };
+		2A2FBD281F1DB658005F0CC7 /* RxWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2FBD131F1DB658005F0CC7 /* RxWebViewController.m */; };
+		2A2FBD291F1DB658005F0CC7 /* RxWebViewNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2FBD151F1DB658005F0CC7 /* RxWebViewNavigationViewController.m */; };
+		2A2FBD2A1F1DB658005F0CC7 /* deferredjs-inject.js in Resources */ = {isa = PBXBuildFile; fileRef = 2A2FBD171F1DB658005F0CC7 /* deferredjs-inject.js */; };
+		2A2FBD2B1F1DB658005F0CC7 /* function-inject.js in Resources */ = {isa = PBXBuildFile; fileRef = 2A2FBD181F1DB658005F0CC7 /* function-inject.js */; };
+		2A2FBD2C1F1DB658005F0CC7 /* smartjs-inject.js in Resources */ = {isa = PBXBuildFile; fileRef = 2A2FBD191F1DB658005F0CC7 /* smartjs-inject.js */; };
+		2A2FBD2D1F1DB658005F0CC7 /* SmartJSDataFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2FBD1B1F1DB658005F0CC7 /* SmartJSDataFunction.m */; };
+		2A2FBD2E1F1DB658005F0CC7 /* SmartJSWebProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2FBD1D1F1DB658005F0CC7 /* SmartJSWebProgressView.m */; };
+		2A2FBD2F1F1DB658005F0CC7 /* SmartJSWebView+ClearCookies.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2FBD1F1F1DB658005F0CC7 /* SmartJSWebView+ClearCookies.m */; };
+		2A2FBD301F1DB658005F0CC7 /* SmartJSWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2FBD211F1DB658005F0CC7 /* SmartJSWebView.m */; };
+		2A2FBD311F1DB658005F0CC7 /* SmartJSWebViewProxyDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2FBD241F1DB658005F0CC7 /* SmartJSWebViewProxyDelegate.m */; };
+		2A2FBD341F1DB6B0005F0CC7 /* MyJSInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2FBD331F1DB6B0005F0CC7 /* MyJSInterface.m */; };
+		2A2FBD3B1F1DB8FD005F0CC7 /* StringUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2FBD3A1F1DB8FD005F0CC7 /* StringUtil.m */; };
+		49F332600CB7BC10ACEB57C2 /* Pods_ZWXAllen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 187A07EBAE4E2A7DD4B4EC0B /* Pods_ZWXAllen.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		187A07EBAE4E2A7DD4B4EC0B /* Pods_ZWXAllen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZWXAllen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A2FBCBF1F1DB30E005F0CC7 /* ZWXAllen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZWXAllen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A2FBCC31F1DB30E005F0CC7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A2FBCC51F1DB30E005F0CC7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2A2FBCC61F1DB30E005F0CC7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2A2FBCC81F1DB30E005F0CC7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2A2FBCC91F1DB30E005F0CC7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2A2FBCCC1F1DB30E005F0CC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2A2FBCCE1F1DB30E005F0CC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A2FBCD11F1DB30E005F0CC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2A2FBCD31F1DB30E005F0CC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A2FBCDA1F1DB371005F0CC7 /* SYSafeCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYSafeCategory.h; sourceTree = "<group>"; };
+		2A2FBCDB1F1DB371005F0CC7 /* SYSafeCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYSafeCategory.m; sourceTree = "<group>"; };
+		2A2FBCDD1F1DB41D005F0CC7 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		2A2FBCDE1F1DB60F005F0CC7 /* GlobalDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalDefine.h; sourceTree = "<group>"; };
+		2A2FBD0A1F1DB658005F0CC7 /* iToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iToast.h; sourceTree = "<group>"; };
+		2A2FBD0B1F1DB658005F0CC7 /* iToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iToast.m; sourceTree = "<group>"; };
+		2A2FBD0E1F1DB658005F0CC7 /* NJKWebViewProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJKWebViewProgress.h; sourceTree = "<group>"; };
+		2A2FBD0F1F1DB658005F0CC7 /* NJKWebViewProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJKWebViewProgress.m; sourceTree = "<group>"; };
+		2A2FBD101F1DB658005F0CC7 /* NJKWebViewProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJKWebViewProgressView.h; sourceTree = "<group>"; };
+		2A2FBD111F1DB658005F0CC7 /* NJKWebViewProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJKWebViewProgressView.m; sourceTree = "<group>"; };
+		2A2FBD121F1DB658005F0CC7 /* RxWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RxWebViewController.h; sourceTree = "<group>"; };
+		2A2FBD131F1DB658005F0CC7 /* RxWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RxWebViewController.m; sourceTree = "<group>"; };
+		2A2FBD141F1DB658005F0CC7 /* RxWebViewNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RxWebViewNavigationViewController.h; sourceTree = "<group>"; };
+		2A2FBD151F1DB658005F0CC7 /* RxWebViewNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RxWebViewNavigationViewController.m; sourceTree = "<group>"; };
+		2A2FBD171F1DB658005F0CC7 /* deferredjs-inject.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "deferredjs-inject.js"; sourceTree = "<group>"; };
+		2A2FBD181F1DB658005F0CC7 /* function-inject.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "function-inject.js"; sourceTree = "<group>"; };
+		2A2FBD191F1DB658005F0CC7 /* smartjs-inject.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "smartjs-inject.js"; sourceTree = "<group>"; };
+		2A2FBD1A1F1DB658005F0CC7 /* SmartJSDataFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartJSDataFunction.h; sourceTree = "<group>"; };
+		2A2FBD1B1F1DB658005F0CC7 /* SmartJSDataFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmartJSDataFunction.m; sourceTree = "<group>"; };
+		2A2FBD1C1F1DB658005F0CC7 /* SmartJSWebProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartJSWebProgressView.h; sourceTree = "<group>"; };
+		2A2FBD1D1F1DB658005F0CC7 /* SmartJSWebProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmartJSWebProgressView.m; sourceTree = "<group>"; };
+		2A2FBD1E1F1DB658005F0CC7 /* SmartJSWebView+ClearCookies.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SmartJSWebView+ClearCookies.h"; sourceTree = "<group>"; };
+		2A2FBD1F1F1DB658005F0CC7 /* SmartJSWebView+ClearCookies.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SmartJSWebView+ClearCookies.m"; sourceTree = "<group>"; };
+		2A2FBD201F1DB658005F0CC7 /* SmartJSWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartJSWebView.h; sourceTree = "<group>"; };
+		2A2FBD211F1DB658005F0CC7 /* SmartJSWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmartJSWebView.m; sourceTree = "<group>"; };
+		2A2FBD221F1DB658005F0CC7 /* SmartJSWebViewProgressDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartJSWebViewProgressDelegate.h; sourceTree = "<group>"; };
+		2A2FBD231F1DB658005F0CC7 /* SmartJSWebViewProxyDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartJSWebViewProxyDelegate.h; sourceTree = "<group>"; };
+		2A2FBD241F1DB658005F0CC7 /* SmartJSWebViewProxyDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmartJSWebViewProxyDelegate.m; sourceTree = "<group>"; };
+		2A2FBD321F1DB6B0005F0CC7 /* MyJSInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyJSInterface.h; sourceTree = "<group>"; };
+		2A2FBD331F1DB6B0005F0CC7 /* MyJSInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyJSInterface.m; sourceTree = "<group>"; };
+		2A2FBD351F1DB719005F0CC7 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		2A2FBD391F1DB8FD005F0CC7 /* StringUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringUtil.h; sourceTree = "<group>"; };
+		2A2FBD3A1F1DB8FD005F0CC7 /* StringUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringUtil.m; sourceTree = "<group>"; };
+		5140A463A44D8633A15E52AE /* Pods-ZWXAllen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZWXAllen.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZWXAllen/Pods-ZWXAllen.debug.xcconfig"; sourceTree = "<group>"; };
+		9F335B6618A2E0389930406C /* Pods-ZWXAllen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZWXAllen.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZWXAllen/Pods-ZWXAllen.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A2FBCBC1F1DB30E005F0CC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49F332600CB7BC10ACEB57C2 /* Pods_ZWXAllen.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A2FBCB61F1DB30E005F0CC7 = {
+			isa = PBXGroup;
+			children = (
+				2A2FBCC11F1DB30E005F0CC7 /* ZWXAllen */,
+				2A2FBCC01F1DB30E005F0CC7 /* Products */,
+				55E4780E04548E983124AD6D /* Pods */,
+				3E83D780EFF37D9F781EF2C1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2A2FBCC01F1DB30E005F0CC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A2FBCBF1F1DB30E005F0CC7 /* ZWXAllen.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A2FBCC11F1DB30E005F0CC7 /* ZWXAllen */ = {
+			isa = PBXGroup;
+			children = (
+				2A2FBD081F1DB658005F0CC7 /* Vender */,
+				2A2FBCD91F1DB371005F0CC7 /* Utils */,
+				2A2FBCC51F1DB30E005F0CC7 /* AppDelegate.h */,
+				2A2FBCC61F1DB30E005F0CC7 /* AppDelegate.m */,
+				2A2FBCC81F1DB30E005F0CC7 /* ViewController.h */,
+				2A2FBCC91F1DB30E005F0CC7 /* ViewController.m */,
+				2A2FBCCB1F1DB30E005F0CC7 /* Main.storyboard */,
+				2A2FBCCE1F1DB30E005F0CC7 /* Assets.xcassets */,
+				2A2FBCD01F1DB30E005F0CC7 /* LaunchScreen.storyboard */,
+				2A2FBCD31F1DB30E005F0CC7 /* Info.plist */,
+				2A2FBCC21F1DB30E005F0CC7 /* Supporting Files */,
+			);
+			path = ZWXAllen;
+			sourceTree = "<group>";
+		};
+		2A2FBCC21F1DB30E005F0CC7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A2FBCDE1F1DB60F005F0CC7 /* GlobalDefine.h */,
+				2A2FBCDD1F1DB41D005F0CC7 /* Constants.h */,
+				2A2FBCC31F1DB30E005F0CC7 /* main.m */,
+				2A2FBD351F1DB719005F0CC7 /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2A2FBCD91F1DB371005F0CC7 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				2A2FBD391F1DB8FD005F0CC7 /* StringUtil.h */,
+				2A2FBD3A1F1DB8FD005F0CC7 /* StringUtil.m */,
+				2A2FBD321F1DB6B0005F0CC7 /* MyJSInterface.h */,
+				2A2FBD331F1DB6B0005F0CC7 /* MyJSInterface.m */,
+				2A2FBCDA1F1DB371005F0CC7 /* SYSafeCategory.h */,
+				2A2FBCDB1F1DB371005F0CC7 /* SYSafeCategory.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		2A2FBD081F1DB658005F0CC7 /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+				2A2FBD091F1DB658005F0CC7 /* iToast */,
+				2A2FBD0C1F1DB658005F0CC7 /* RxWebViewController */,
+				2A2FBD161F1DB658005F0CC7 /* SmartJSWebView */,
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		2A2FBD091F1DB658005F0CC7 /* iToast */ = {
+			isa = PBXGroup;
+			children = (
+				2A2FBD0A1F1DB658005F0CC7 /* iToast.h */,
+				2A2FBD0B1F1DB658005F0CC7 /* iToast.m */,
+			);
+			path = iToast;
+			sourceTree = "<group>";
+		};
+		2A2FBD0C1F1DB658005F0CC7 /* RxWebViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2A2FBD0D1F1DB658005F0CC7 /* NJKWebViewProgress */,
+				2A2FBD121F1DB658005F0CC7 /* RxWebViewController.h */,
+				2A2FBD131F1DB658005F0CC7 /* RxWebViewController.m */,
+				2A2FBD141F1DB658005F0CC7 /* RxWebViewNavigationViewController.h */,
+				2A2FBD151F1DB658005F0CC7 /* RxWebViewNavigationViewController.m */,
+			);
+			path = RxWebViewController;
+			sourceTree = "<group>";
+		};
+		2A2FBD0D1F1DB658005F0CC7 /* NJKWebViewProgress */ = {
+			isa = PBXGroup;
+			children = (
+				2A2FBD0E1F1DB658005F0CC7 /* NJKWebViewProgress.h */,
+				2A2FBD0F1F1DB658005F0CC7 /* NJKWebViewProgress.m */,
+				2A2FBD101F1DB658005F0CC7 /* NJKWebViewProgressView.h */,
+				2A2FBD111F1DB658005F0CC7 /* NJKWebViewProgressView.m */,
+			);
+			path = NJKWebViewProgress;
+			sourceTree = "<group>";
+		};
+		2A2FBD161F1DB658005F0CC7 /* SmartJSWebView */ = {
+			isa = PBXGroup;
+			children = (
+				2A2FBD171F1DB658005F0CC7 /* deferredjs-inject.js */,
+				2A2FBD181F1DB658005F0CC7 /* function-inject.js */,
+				2A2FBD191F1DB658005F0CC7 /* smartjs-inject.js */,
+				2A2FBD1A1F1DB658005F0CC7 /* SmartJSDataFunction.h */,
+				2A2FBD1B1F1DB658005F0CC7 /* SmartJSDataFunction.m */,
+				2A2FBD1C1F1DB658005F0CC7 /* SmartJSWebProgressView.h */,
+				2A2FBD1D1F1DB658005F0CC7 /* SmartJSWebProgressView.m */,
+				2A2FBD1E1F1DB658005F0CC7 /* SmartJSWebView+ClearCookies.h */,
+				2A2FBD1F1F1DB658005F0CC7 /* SmartJSWebView+ClearCookies.m */,
+				2A2FBD201F1DB658005F0CC7 /* SmartJSWebView.h */,
+				2A2FBD211F1DB658005F0CC7 /* SmartJSWebView.m */,
+				2A2FBD221F1DB658005F0CC7 /* SmartJSWebViewProgressDelegate.h */,
+				2A2FBD231F1DB658005F0CC7 /* SmartJSWebViewProxyDelegate.h */,
+				2A2FBD241F1DB658005F0CC7 /* SmartJSWebViewProxyDelegate.m */,
+			);
+			path = SmartJSWebView;
+			sourceTree = "<group>";
+		};
+		3E83D780EFF37D9F781EF2C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				187A07EBAE4E2A7DD4B4EC0B /* Pods_ZWXAllen.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		55E4780E04548E983124AD6D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5140A463A44D8633A15E52AE /* Pods-ZWXAllen.debug.xcconfig */,
+				9F335B6618A2E0389930406C /* Pods-ZWXAllen.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A2FBCBE1F1DB30E005F0CC7 /* ZWXAllen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A2FBCD61F1DB30E005F0CC7 /* Build configuration list for PBXNativeTarget "ZWXAllen" */;
+			buildPhases = (
+				E864BB1DAFAB220BB3A6EEC7 /* [CP] Check Pods Manifest.lock */,
+				2A2FBCBB1F1DB30E005F0CC7 /* Sources */,
+				2A2FBCBC1F1DB30E005F0CC7 /* Frameworks */,
+				2A2FBCBD1F1DB30E005F0CC7 /* Resources */,
+				B1ABEB4872281C0F6981E422 /* [CP] Embed Pods Frameworks */,
+				6FBFB595F2695EE6D740978B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZWXAllen;
+			productName = ZWXAllen;
+			productReference = 2A2FBCBF1F1DB30E005F0CC7 /* ZWXAllen.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A2FBCB71F1DB30E005F0CC7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = allen;
+				TargetAttributes = {
+					2A2FBCBE1F1DB30E005F0CC7 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2A2FBCBA1F1DB30E005F0CC7 /* Build configuration list for PBXProject "ZWXAllen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A2FBCB61F1DB30E005F0CC7;
+			productRefGroup = 2A2FBCC01F1DB30E005F0CC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A2FBCBE1F1DB30E005F0CC7 /* ZWXAllen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A2FBCBD1F1DB30E005F0CC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A2FBCD21F1DB30E005F0CC7 /* LaunchScreen.storyboard in Resources */,
+				2A2FBCCF1F1DB30E005F0CC7 /* Assets.xcassets in Resources */,
+				2A2FBD2C1F1DB658005F0CC7 /* smartjs-inject.js in Resources */,
+				2A2FBD2B1F1DB658005F0CC7 /* function-inject.js in Resources */,
+				2A2FBCCD1F1DB30E005F0CC7 /* Main.storyboard in Resources */,
+				2A2FBD2A1F1DB658005F0CC7 /* deferredjs-inject.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6FBFB595F2695EE6D740978B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZWXAllen/Pods-ZWXAllen-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1ABEB4872281C0F6981E422 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ZWXAllen/Pods-ZWXAllen-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CYLTabBarController/CYLTabBarController.framework",
+				"${BUILT_PRODUCTS_DIR}/JRSwizzle/JRSwizzle.framework",
+				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
+				"${BUILT_PRODUCTS_DIR}/Reachability/Reachability.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveCocoa/ReactiveCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/SDAutoLayout/SDAutoLayout.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CYLTabBarController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JRSwizzle.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDAutoLayout.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZWXAllen/Pods-ZWXAllen-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E864BB1DAFAB220BB3A6EEC7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZWXAllen-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A2FBCBB1F1DB30E005F0CC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A2FBD311F1DB658005F0CC7 /* SmartJSWebViewProxyDelegate.m in Sources */,
+				2A2FBD341F1DB6B0005F0CC7 /* MyJSInterface.m in Sources */,
+				2A2FBCDC1F1DB371005F0CC7 /* SYSafeCategory.m in Sources */,
+				2A2FBCCA1F1DB30E005F0CC7 /* ViewController.m in Sources */,
+				2A2FBD301F1DB658005F0CC7 /* SmartJSWebView.m in Sources */,
+				2A2FBD2D1F1DB658005F0CC7 /* SmartJSDataFunction.m in Sources */,
+				2A2FBD271F1DB658005F0CC7 /* NJKWebViewProgressView.m in Sources */,
+				2A2FBCC71F1DB30E005F0CC7 /* AppDelegate.m in Sources */,
+				2A2FBD2E1F1DB658005F0CC7 /* SmartJSWebProgressView.m in Sources */,
+				2A2FBD291F1DB658005F0CC7 /* RxWebViewNavigationViewController.m in Sources */,
+				2A2FBD251F1DB658005F0CC7 /* iToast.m in Sources */,
+				2A2FBD2F1F1DB658005F0CC7 /* SmartJSWebView+ClearCookies.m in Sources */,
+				2A2FBD3B1F1DB8FD005F0CC7 /* StringUtil.m in Sources */,
+				2A2FBD261F1DB658005F0CC7 /* NJKWebViewProgress.m in Sources */,
+				2A2FBCC41F1DB30E005F0CC7 /* main.m in Sources */,
+				2A2FBD281F1DB658005F0CC7 /* RxWebViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2A2FBCCB1F1DB30E005F0CC7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A2FBCCC1F1DB30E005F0CC7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2A2FBCD01F1DB30E005F0CC7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A2FBCD11F1DB30E005F0CC7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A2FBCD41F1DB30E005F0CC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2A2FBCD51F1DB30E005F0CC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A2FBCD71F1DB30E005F0CC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5140A463A44D8633A15E52AE /* Pods-ZWXAllen.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = ZWXAllen/PrefixHeader.pch;
+				INFOPLIST_FILE = ZWXAllen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.snailgames.ZWXAllen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2A2FBCD81F1DB30E005F0CC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F335B6618A2E0389930406C /* Pods-ZWXAllen.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = ZWXAllen/PrefixHeader.pch;
+				INFOPLIST_FILE = ZWXAllen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.snailgames.ZWXAllen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A2FBCBA1F1DB30E005F0CC7 /* Build configuration list for PBXProject "ZWXAllen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A2FBCD41F1DB30E005F0CC7 /* Debug */,
+				2A2FBCD51F1DB30E005F0CC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A2FBCD61F1DB30E005F0CC7 /* Build configuration list for PBXNativeTarget "ZWXAllen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A2FBCD71F1DB30E005F0CC7 /* Debug */,
+				2A2FBCD81F1DB30E005F0CC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A2FBCB71F1DB30E005F0CC7 /* Project object */;
+}

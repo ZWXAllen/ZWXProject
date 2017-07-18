@@ -1,0 +1,17 @@
+//
+//  PrefixHeader.pch
+//  ZWXAllen
+//
+//  Created by allen on 2017/7/18.
+//  Copyright © 2017年 allen. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "GlobalDefine.h"
+#import <SDAutoLayout/SDAutoLayout.h>
+#import <ReactiveCocoa/ReactiveCocoa.h>
+#import "MJExtension.h"
+
+#endif /* PrefixHeader_pch */
