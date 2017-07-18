@@ -4,58 +4,139 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>AFNetworking.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>CBTableViewDataSource.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>CYLTabBarController.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>0</integer>
+		</dict>
+		<key>CocoaLumberjack.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>DZNEmptyDataSet.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>IQKeyboardManager.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>JRSwizzle.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>1</integer>
+		</dict>
+		<key>JZNavigationExtension.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>MJExtension.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>2</integer>
+		</dict>
+		<key>MJRefresh.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>MLLabel.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>NVActivityIndicatorView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>PPNetworkHelper.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>Pods-ZWXProject.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>3</integer>
 		</dict>
 		<key>Reachability.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>4</integer>
 		</dict>
 		<key>ReactiveCocoa.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>5</integer>
 		</dict>
 		<key>SDAutoLayout.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>6</integer>
+		</dict>
+		<key>WRNavigationBar.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>XHLaunchAd.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>YStaticContentTableView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>YYCache.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>1EBADF6F0D7D170AF56078195D8BFCA8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>211CD5E5608F774681B5C7C4B9377F32</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>279AA6726F52A334C45E85774BD21A3D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3EDFE4052B5DE7D509935AC0774CB135</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>584B71D780A86EE9FF601898FE5942C1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>58FE0486E83AA749B9E8C1300B64E2A2</key>
 		<dict>
 			<key>primary</key>
@@ -66,27 +147,72 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>BE9E696341FF463067AE4440B2678578</key>
+		<key>5BD626A6D71B6ED3C1595EA446E03CB0</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>CF5E65B2077EE670C3931663170A3CB2</key>
+		<key>5F51955B4835E2E80BA290F196A77BC8</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>CFCB8391BCF71C05F18C4FC473AF4D01</key>
+		<key>7554F54755301C86BA19280C7796A15A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E1758CED8A161AED79951EB69F8F3C5C</key>
+		<key>BB065A168B57F702DFB9B85EA624CF44</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BBE65B12081F43978E1F3412F264ECE7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CF671F7E57B92905F1CC91D036D6B4A7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D386C75EFD4F03725E4EFB866B600B9A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E14A62900910444707A5504D25EC98DC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EA2A920A891C4D3535867E5C3EF3D793</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F29DB74A61E4943410B53233841331AC</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>F5E7B86C60FCB91858074F7C2F733BE5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F96840DADF2F82C4AFC77C5DAF8F48CE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FB2B67F255B6332781B1D80398C32303</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FDDDA343A110D3CFC15DC0FC6C44036E</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "SYSafeCategory.h"
+#import "AppDelegate+Tabbar.h"
 @interface AppDelegate ()
 
 @end
@@ -18,6 +19,10 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     [SYSafeCategory callSafeCategory];
+    
+    [self setupViewControllers];
+    [self.window setRootViewController:self.tabBarController];
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

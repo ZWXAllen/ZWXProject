@@ -1,0 +1,6 @@
+framework module YStaticContentTableView {
+  umbrella header "YStaticContentTableView-umbrella.h"
+
+  export *
+  module * { export * }
+}

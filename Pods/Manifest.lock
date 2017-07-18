@@ -1,7 +1,40 @@
 PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - CBTableViewDataSource (1.1.0)
+  - CocoaLumberjack (3.2.0):
+    - CocoaLumberjack/Default (= 3.2.0)
+    - CocoaLumberjack/Extensions (= 3.2.0)
+  - CocoaLumberjack/Default (3.2.0)
+  - CocoaLumberjack/Extensions (3.2.0):
+    - CocoaLumberjack/Default
   - CYLTabBarController (1.10.0)
+  - DZNEmptyDataSet (1.8.1)
+  - IQKeyboardManager (4.0.10)
   - JRSwizzle (1.0)
+  - JZNavigationExtension (1.5.0.1)
   - MJExtension (3.0.13)
+  - MJRefresh (3.1.12)
+  - MLLabel (1.10.5)
+  - NVActivityIndicatorView (3.7.0):
+    - NVActivityIndicatorView/Presenter (= 3.7.0)
+  - NVActivityIndicatorView/Presenter (3.7.0)
+  - PPNetworkHelper (0.8.0):
+    - AFNetworking (~> 3.1.0)
+    - YYCache (~> 1.0.4)
   - Reachability (3.2)
   - ReactiveCocoa (2.5):
     - ReactiveCocoa/UI (= 2.5)
@@ -11,23 +44,53 @@ PODS:
   - ReactiveCocoa/UI (2.5):
     - ReactiveCocoa/Core
   - SDAutoLayout (2.1.9)
+  - WRNavigationBar (1.0.1)
+  - XHLaunchAd (3.5.5)
+  - YStaticContentTableView (0.1.2)
+  - YYCache (1.0.4)
 
 DEPENDENCIES:
+  - CBTableViewDataSource (~> 1.1.0)
+  - CocoaLumberjack (~> 3.2.0)
   - CYLTabBarController (~> 1.10.0)
+  - DZNEmptyDataSet (~> 1.8.1)
+  - IQKeyboardManager (~> 4.0.10)
   - JRSwizzle (~> 1.0)
+  - JZNavigationExtension (~> 1.5.0.1)
   - MJExtension (~> 3.0.13)
+  - MJRefresh (~> 3.1.12)
+  - MLLabel (~> 1.10.5)
+  - NVActivityIndicatorView (~> 3.7.0)
+  - PPNetworkHelper (~> 0.8.0)
   - Reachability (~> 3.2)
   - ReactiveCocoa (~> 2.5)
   - SDAutoLayout (~> 2.1.8)
+  - WRNavigationBar (~> 1.0.1)
+  - XHLaunchAd (~> 3.5.5)
+  - YStaticContentTableView (~> 0.1.2)
 
 SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  CBTableViewDataSource: b3af29c138d3b594eb577be2bdd996685121c5c8
+  CocoaLumberjack: 9b4aed7073d242f29cc2f62068d995faf67f703a
   CYLTabBarController: 2de9a4c26f50d33574398becf8e7b0aaed794240
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  IQKeyboardManager: 593ee99b88381f4b9ccb22bd680f22606351bd41
   JRSwizzle: dd5ead5d913a0f29e7f558200165849f006bb1e3
+  JZNavigationExtension: 7b95d2b1c48846b8bedcb40d767448f14cb9a0b7
   MJExtension: 5932755f451458eefa24239358817f8d291240c7
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  MLLabel: d76124055a2205e7f76878e62cd06ba925ba0c97
+  NVActivityIndicatorView: d3738df7e2e476aca0ba6bf32a8c9fbcfc33d64b
+  PPNetworkHelper: 900d1af5cb9f2932b3f955ebf72148b7ec403d44
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
   ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
   SDAutoLayout: 6b6f4db0d009dfc46cef14ef710dbb164e86616c
+  WRNavigationBar: ab5b042168e28ca0c12a16fc72e40dd7fdd9f87b
+  XHLaunchAd: 7827b5608c91606f372e6475556bd86968100d0e
+  YStaticContentTableView: 9cfaa9f5a92a6bc95a4f2d8f055e721baa06b505
+  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
 
-PODFILE CHECKSUM: 002ea40b97f7f93b5d2e8d9c5643eea4d8855f74
+PODFILE CHECKSUM: d7492efc8aa950bec4bdf9a3e32eeff68e8e0420
 
 COCOAPODS: 1.3.0.beta.2
